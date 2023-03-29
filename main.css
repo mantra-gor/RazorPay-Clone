@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.newFeatureCard {
+    box-shadow: 2px 4px 9px 1px hsl(0deg 0% 0% / 5%);
+}
+.coreFeatureBg{
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+.companiesList{
+    animation-name: moveImage;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes moveImage {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -50%;
+    }
+}
+.ctaSection{
+    background-size: 100% 100%;
+}
+.featureSec2CardBg:hover{
+    background: linear-gradient(to top,#4D29D1,#2b84eafd);
+    background: linear-gradient(to top,#4D29D1,#4dd0e1f0);
+}
+.boxShadowMG{
+    box-shadow: 2px 4px 9px 1px hsl(0deg 0% 0% / 5%);
+}
+.mysvgShad:hover{
+    stroke: none;
+    filter: drop-shadow(0px 0px 60px #00000080);
+}
